@@ -1,3 +1,0 @@
-# 10월
-
-[20211015 Today I Learned](10%E1%84%8B%E1%85%AF%E1%86%AF%206cf13969b76f4c25a9cdacbd6a32d6ac/20211015%20Today%20I%20Learned%207c98177c178b4d9caccb30fac305329d.md)
