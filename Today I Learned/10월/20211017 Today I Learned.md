@@ -12,9 +12,9 @@
 
 ## ERD
 
-![ERD1.PNG](20211017%20Today%20I%20learned%200e1ee16492f14539a7d46b0ed4227219/ERD1.png)
+![ERD1](https://user-images.githubusercontent.com/19809346/137620142-63037ea5-e0c5-4449-a46b-09f6ddb83c0d.PNG)
 
-![관계타입사상.PNG](20211017%20Today%20I%20learned%200e1ee16492f14539a7d46b0ed4227219/%EA%B4%80%EA%B3%84%ED%83%80%EC%9E%85%EC%82%AC%EC%83%81.png)
+![관계타입사상](https://user-images.githubusercontent.com/19809346/137620143-06cd6ffa-d9c2-4a25-a19b-27c14f7b2c03.PNG)
 
  
 
@@ -28,6 +28,6 @@
 
 ## DFD
 
-![DFD.PNG](20211017%20Today%20I%20learned%200e1ee16492f14539a7d46b0ed4227219/DFD.png)
+![DFD](https://user-images.githubusercontent.com/19809346/137620140-116d4a53-4415-4a2a-9801-6d7b0d6aa908.PNG)
 
 예약 기능을 추가했을때 어떻게 돌아갈지에 대해서 생각해보면서 그려본 DFD이다. 지금은 대략적으로 큰 기능들만 그렸는데, 앞으로 XP 방식으로 조금씩 요구사항을 구현해 나갈 생각이니 요구사항을 세세하게 도출하고, DFD를 그리는 식으로 세부 모듈까지 구체화해나갈 예정이다.
