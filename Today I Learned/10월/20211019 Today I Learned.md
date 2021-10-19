@@ -25,7 +25,7 @@
 2. SQL에 의존해서 개발을 해야한다.
 3. 패러다임이 불일치한다. Java 같은 경우 객체지향 프로그래밍 형식을 따르는데 반해 DB는 관계형 DB이기 때문에 똑같은 패러다임으로 집중해서 개발 할 수 없다. 
 
-![엔티티 신뢰문제.PNG](20211019%20Today%20I%20Learned%207817df1f141446d2bd04a91400c9415c/%EC%97%94%ED%8B%B0%ED%8B%B0_%EC%8B%A0%EB%A2%B0%EB%AC%B8%EC%A0%9C.png)
+![엔티티_신뢰문제](https://user-images.githubusercontent.com/19809346/137914744-f963154e-5139-4cc5-9157-c5d61182de88.png)
 
 [https://www.inflearn.com/course/ORM-JPA-Basic/dashboard](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
 
@@ -43,11 +43,11 @@
 - 밑의 그림과 같은 DB와 직접 통신하는 귀찮은 일들을 전부 대신해준다.
 - 구현 객체로 하이버네이트, EclipseLink, DataNucleus등이 있다.
 
-![JPA 저장.PNG](20211019%20Today%20I%20Learned%207817df1f141446d2bd04a91400c9415c/JPA_%EC%A0%80%EC%9E%A5.png)
+![JPA_저장](https://user-images.githubusercontent.com/19809346/137914751-f7a36b03-2752-4b48-8be9-386c36d44c3d.png)
 
 [https://www.inflearn.com/course/ORM-JPA-Basic/dashboard](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
 
-![JPA 조회.PNG](20211019%20Today%20I%20Learned%207817df1f141446d2bd04a91400c9415c/JPA_%EC%A1%B0%ED%9A%8C.png)
+![JPA_조회](https://user-images.githubusercontent.com/19809346/137914753-8f49ad7a-b88c-48b5-82e8-94db51392361.png)
 
 [https://www.inflearn.com/course/ORM-JPA-Basic/dashboard](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
 
@@ -73,6 +73,6 @@
 - 지연 로딩: 객체가 실제 사용될 때 로딩
 - 즉시 로딩: JOIN SQL로 한번에 연관된 객체까지 미리 조회
 
-![지연즉시.PNG](20211019%20Today%20I%20Learned%207817df1f141446d2bd04a91400c9415c/%EC%A7%80%EC%97%B0%EC%A6%89%EC%8B%9C.png)
+![지연즉시](https://user-images.githubusercontent.com/19809346/137914747-b2eec621-0cf9-4f5c-b7ee-a723d6ca61ce.png)
 
 [https://www.inflearn.com/course/ORM-JPA-Basic/dashboard](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
