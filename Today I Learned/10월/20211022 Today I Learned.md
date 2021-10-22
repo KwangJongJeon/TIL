@@ -18,11 +18,10 @@
 
 ## 🚀오늘의 프로젝트 산출물
 
-![산출물1.PNG](20211022%20Today%20I%20Learned%206054e5ad88db4dc5a0a3bd5b8ecf5a5f/%EC%82%B0%EC%B6%9C%EB%AC%BC1.png)
+![산출물1](https://user-images.githubusercontent.com/19809346/138459692-1d105a52-ade0-4a12-b581-e19147302818.png)
+![산출물2](https://user-images.githubusercontent.com/19809346/138459694-7ab308db-c0a8-4685-b603-0a7dbf16471e.png)
+![산출물3](https://user-images.githubusercontent.com/19809346/138459697-79dc15b4-4039-454e-8728-b4907dfb0620.png)
 
-![산출물2.PNG](20211022%20Today%20I%20Learned%206054e5ad88db4dc5a0a3bd5b8ecf5a5f/%EC%82%B0%EC%B6%9C%EB%AC%BC2.png)
-
-![산출물3.PNG](20211022%20Today%20I%20Learned%206054e5ad88db4dc5a0a3bd5b8ecf5a5f/%EC%82%B0%EC%B6%9C%EB%AC%BC3.png)
 
  
 
