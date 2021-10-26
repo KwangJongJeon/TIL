@@ -13,11 +13,11 @@
 
 ## 🚀 오늘의 산출물
 
-![일정.PNG](20211026%20Today%20I%20Learned%20d0b9750d149d4cfc91f2319efdd00255/%EC%9D%BC%EC%A0%95.png)
+![일정](https://user-images.githubusercontent.com/19809346/138885880-166289fb-e069-4c93-8088-218e4753ac72.png)
 
 일정 수립
 
-![테스트.PNG](20211026%20Today%20I%20Learned%20d0b9750d149d4cfc91f2319efdd00255/%ED%85%8C%EC%8A%A4%ED%8A%B8.png)
+![테스트](https://user-images.githubusercontent.com/19809346/138885887-3aaabb07-8f14-4860-8735-381d73fe2666.png)
 
 모두 통과한 테스트코드
 
