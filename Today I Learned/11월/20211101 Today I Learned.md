@@ -20,13 +20,12 @@ Strategy 패턴을 공부했다. 요즘 들어 늘어지고있다. 열심히 하
 
 ## 📗UML Diagram
 
-![UML1.jpg](20211101%20Today%20I%20Learned%204c524c1f3cc348c4a4d022757811a92f/UML1.jpg)
-
+![UML1](https://user-images.githubusercontent.com/19809346/139672456-420e5d8f-250e-4289-8a86-323bfaef0c78.jpg)
 UML DIAGRAM  from - [https://en.wikipedia.org/wiki/Strategy_pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
 
  위의 UML을 보면 구현 클래스인 Context가 Strategy를 구현(implements)가 아니라 단순히 의존 화살표로 연결되어 있는 것을 볼 수 있다.  Context가 사용하는 Strategy를 바로 구현하는게 아니라 Strategy Interface를 '**참조'**만 함으로써, 알고리즘의 구현과 알고리즘을 사용하는 Context를 분리하는 것이다.
 
-![11.png](20211101%20Today%20I%20Learned%204c524c1f3cc348c4a4d022757811a92f/11.png)
+![11](https://user-images.githubusercontent.com/19809346/139672451-ffca25d8-5661-4949-a6fd-a5762788f824.png)
 
 from - [https://en.wikipedia.org/wiki/Strategy_pattern](https://en.wikipedia.org/wiki/Strategy_pattern) class diagram
 
@@ -107,10 +106,9 @@ public class strategy {
 }
 ```
 
-![output.PNG](20211101%20Today%20I%20Learned%204c524c1f3cc348c4a4d022757811a92f/output.png)
-
+![output](https://user-images.githubusercontent.com/19809346/139672453-665d94b5-e115-444c-a125-748d6a96d60d.png)
 output
 
-아직 좀 긴가민가하다 좀 더 정리해서 써야할듯
+아직 좀 긴가민가하다 좀 더 정리해서 블로그에 써야할듯
 
 [Strategy pattern - Wikipedia](https://en.wikipedia.org/wiki/Strategy_pattern)
