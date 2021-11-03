@@ -14,7 +14,7 @@
 
 ## 🧩 멀티쓰레드
 
-![다중쓰레드.PNG](20211103%20Today%20I%20Learned%208f2b6eaedb5549908a61c40e10e8142e/%EB%8B%A4%EC%A4%91%EC%93%B0%EB%A0%88%EB%93%9C.png)
+![다중쓰레드](https://user-images.githubusercontent.com/19809346/140077446-fa315c24-ec88-4781-9072-3c3b3428bcc1.png)
 
 from - [https://www.inflearn.com/course/스프링-mvc-1/dashboard](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1/dashboard)
 
@@ -22,14 +22,13 @@ from - [https://www.inflearn.com/course/스프링-mvc-1/dashboard](https://www.i
 
 쓰레드가 하나고 요청이 두개라면 쓰레드가 요청 1번을 처리하는동안 요청 2번은 쓰레드가 사용 가능해질 때 까지 대기해야 한다. 만약 요청 1과 요청 2를 동시에 처리하기를 원한다면 쓰레드를 추가로 생성해야한다.
 
-![요청마다 쓰레드.PNG](20211103%20Today%20I%20Learned%208f2b6eaedb5549908a61c40e10e8142e/%EC%9A%94%EC%B2%AD%EB%A7%88%EB%8B%A4_%EC%93%B0%EB%A0%88%EB%93%9C.png)
+![요청마다_쓰레드](https://user-images.githubusercontent.com/19809346/140077444-f8339475-a8b1-432a-a066-1d2ae9d75d8a.png)
 
 from - [https://www.inflearn.com/course/스프링-mvc-1/dashboard](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1/dashboard)
 
  하지만 요청마다 쓰레드를 생성 할 경우 문제가 있는데 만약 쓰레드가 계속해서 증가해 애플리케이션이 모든 자원을 소모한다면 애플리케이션은 결국 outOfBoundException등으로 종료되게 될 것이다. 또한 쓰레드의 수가 굉장히 많기 때문에 컨텍스트 스위칭(Context switching) 비용도 많이 들 것이다. 이를 해결하기 위해서는 쓰레드의 개수에 **'상한'**을 거는 것이 중요하다.
 
-![쓰레드풀.PNG](20211103%20Today%20I%20Learned%208f2b6eaedb5549908a61c40e10e8142e/%EC%93%B0%EB%A0%88%EB%93%9C%ED%92%80.png)
-
+![쓰레드풀](https://user-images.githubusercontent.com/19809346/140077438-96483261-c778-4e14-bf1a-e27a88116c4e.png)
 from - [https://www.inflearn.com/course/스프링-mvc-1/dashboard](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1/dashboard)
 
 이를 '쓰레드 풀'이라는 것으로 해결할 수 있다. 생성할 쓰레드를 미리 생성해두고 요청이 필요 할 때 쓰레드 풀에 쓰레드를 요청하게 한다. 만약 쓰레드 풀에 아직 사용하지 않은 쓰레드가 남아있다면 쓰레드를 사용하고, 작업이 들어왔는데, 쓰레드가 전부 사용중이라면 작업을 대기시킨 뒤 쓰레드가 반납되면 해당 작업을 다시 진행하면 된다. 
