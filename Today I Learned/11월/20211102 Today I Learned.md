@@ -25,15 +25,14 @@
 
 ## 💡 일반적인 서버의 구성도
 
-![서버구현.PNG](20211102%20Today%20I%20Learned%20318759b343954da78df0a3d358a0ffcb/%EC%84%9C%EB%B2%84%EA%B5%AC%ED%98%84.png)
-
+![서버구현](https://user-images.githubusercontent.com/19809346/139853216-4503841d-8b65-42ca-ba6c-51cdd32e70b1.png)
 from - inflearn 김영한 - 스프링 MVC 1편
 
 ### 위와 같은 구성도일 경우의 장점
 
  WAS만을 사용하면 HTML, CSS등의 정적 코드와 애플리케이션 로직 둘 다 제공 할 수 있는데 그렇게 하지 않는 이유는 '정적 이미지'만을 제공하는 기능을 잘 죽지 않는 애플리케이션 비즈니스 로직같은 경우는 정말 잘 죽기 때문이다. 만약 WEB SERVER만 살아있다면, WAS등이 죽어도 예외 처리 페이지등으로 이동 시킬 수 있어, UX 방면으로도 장점이 있다.
 
-![WAS.PNG](20211102%20Today%20I%20Learned%20318759b343954da78df0a3d358a0ffcb/WAS.png)
+![WAS](https://user-images.githubusercontent.com/19809346/139853226-b0f91b49-c797-4247-b2ac-e1b7ae84d7e1.png)
 
 from - inflearn 김영한 - 스프링 MVC 1편
 
@@ -41,7 +40,7 @@ from - inflearn 김영한 - 스프링 MVC 1편
 
 # 📗Servlet
 
-![서블릿1.PNG](20211102%20Today%20I%20Learned%20318759b343954da78df0a3d358a0ffcb/%EC%84%9C%EB%B8%94%EB%A6%BF1.png)
+![서블릿1](https://user-images.githubusercontent.com/19809346/139853225-2eca1bb1-7f7f-44d2-b109-7ea6655ba30f.png)
 
 from - inflearn 김영한 - 스프링 MVC 1편
 
@@ -80,3 +79,6 @@ HttpServlet을 상속받고, @WebServlet 애노테이션을 선언하면 된다.
  * 동시 요청을 위한 멀티 쓰레드 처리도 지원한다
 
 ⚠️ 서블릿 객체 또한 싱글턴으로 생성되니 **'공유변수'**를 주의하자!
+
+### Reference
+https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1/dashboard
