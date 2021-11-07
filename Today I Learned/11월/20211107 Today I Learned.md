@@ -103,7 +103,8 @@ JSP는 다음과 같이 활용한다.
 
  MVC(Model, View, Controller) 패턴을 사용하여 각각의 기능을 분리한다. MVC 패턴이란 기능을 모델, 뷰, 컨트롤러의 큰 부분으로 나눠서 처리하는 것을 의미한다. 
 
-![from - [https://www.inflearn.com/course/스프링-mvc-1/dashboard](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1/dashboard)](20211107%20Today%20I%20Learned%209615e552b1c942faa0a354b7dc2356e3/MVC.png)
+![MVC](https://user-images.githubusercontent.com/19809346/140649352-cb73ddb2-0034-4d92-97e2-fac359905a8d.png)
+
 
 from - [https://www.inflearn.com/course/스프링-mvc-1/dashboard](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1/dashboard)
 
