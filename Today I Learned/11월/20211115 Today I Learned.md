@@ -2,12 +2,15 @@
 
 # 📖 오늘 무슨 일을 했나?
 
+해당 강의를 듣고 공부한 내용입니다.
+
+https://www.inflearn.com/course/ORM-JPA-Basic/dashboard
+
 ## 📗 영속성 컨텍스트
 
  "엔티티를 영구 저장하는 환경" 논리적인 개념이며, JPA의 엔티티 매니저를 통해서 영속성 컨텍스트에 접근 할 수 있다. JPA의 엔티티 매니저와 영속성 컨텍스트는 다음과 같이 구성된다.
 
-![[https://www.inflearn.com/course/ORM-JPA-Basic/dashboard](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)](20211115%20Today%20I%20Learned%20207fd7d7e28944618dea058acd90b815/%EC%97%94%ED%8B%B0%ED%8B%B0%EB%A7%A4%EB%8B%88%EC%A0%80.png)
-
+![엔티티매니저](https://user-images.githubusercontent.com/19809346/141780084-0fb536cd-292c-4036-a564-b0eaaa8b88bb.png)
 [https://www.inflearn.com/course/ORM-JPA-Basic/dashboard](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
 
  JPA만 단독으로 사용하는 환경이면 엔티티매니저와 영속성 컨텍스트가 1:1로 매칭되고, J2EE나 스프링 프레임워크와 같은 컨테이너 환경일 경우 N:1로 관리된다.
@@ -82,7 +85,7 @@ em.remove(member);
 
  객체를 영속화(persist() 사용)시키면 영속성 컨텍스트의 캐시테이블에 값이 올라간다.
 
-![[https://www.inflearn.com/course/ORM-JPA-Basic/dashboard](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)](20211115%20Today%20I%20Learned%20207fd7d7e28944618dea058acd90b815/1%EC%B0%A8%EC%BA%90%EC%8B%9C.png)
+![1차캐시](https://user-images.githubusercontent.com/19809346/141780088-d8d47856-7313-43a3-9c90-8cbddc991269.png)
 
 [https://www.inflearn.com/course/ORM-JPA-Basic/dashboard](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
 
@@ -104,8 +107,7 @@ Member findMember = em.find(Member.class, "member1");
 
  만약 DB에만 저장되어있고 1차 캐시에 저장되어 있지 않은 값을 가져온다고 할 때 다음 그림과 같이 진행된다.
 
-![1차캐시2.PNG](20211115%20Today%20I%20Learned%20207fd7d7e28944618dea058acd90b815/1%EC%B0%A8%EC%BA%90%EC%8B%9C2.png)
-
+![1차캐시2](https://user-images.githubusercontent.com/19809346/141780075-fee20138-3de4-43df-bd0b-a38dc644fe79.png)
  영속성 컨텍스트는 영속 엔티티의 동일성 또한 보장한다.
 
 ```java
@@ -131,8 +133,7 @@ em.persist(memberB);
 transaction.commit(); // [트랜잭션] 커밋
 ```
 
-![쓰기지연 - [https://www.inflearn.com/course/ORM-JPA-Basic/dashboard](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)](20211115%20Today%20I%20Learned%20207fd7d7e28944618dea058acd90b815/%EC%93%B0%EA%B8%B0%EC%A7%80%EC%97%B0.png)
-
+![쓰기지연](https://user-images.githubusercontent.com/19809346/141780082-afb2da8f-1b16-4bf4-96a1-358a073b6c55.png)
 쓰기지연 - [https://www.inflearn.com/course/ORM-JPA-Basic/dashboard](https://www.inflearn.com/course/ORM-JPA-Basic/dashboard)
 
  위의 그림에서 처럼 쓰기 지연 SQL 저장소에 SQL들을 모은 다음 commit()이 들어오면 한번에 DB에 SQL 구문을 보낸다.
@@ -143,8 +144,7 @@ transaction.commit(); // [트랜잭션] 커밋
 
 이는 Dirty Checking이라는 방법을 통해 진행된다. 
 
-![변경감지.PNG](20211115%20Today%20I%20Learned%20207fd7d7e28944618dea058acd90b815/%EB%B3%80%EA%B2%BD%EA%B0%90%EC%A7%80.png)
-
+![변경감지](https://user-images.githubusercontent.com/19809346/141780079-c3d13b63-4a73-4069-aaae-a6db55a44ba3.png)
  위에 그림에서와 같이, 만약 영속화된 객체에 데이터 변경이 발생한다면 스냅샷에 변경된 객체를 집어넣는다. 그 뒤에 트랜잭션이 commit 될 때 스냅샷과 Enitity를 일일히 비교해서, 다른 부분이 있다면 JPA가 update 쿼리문을 SQL 저장소에 넣은 다음 commit할 때 일괄적으로 보내게 된다.
 
 ## 📙 플러시
